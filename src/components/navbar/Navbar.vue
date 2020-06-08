@@ -1,11 +1,13 @@
 <template>
   <div>
     <b-navbar toggleable type="dark">
-      <b-navbar-brand href="#">
-        <b-img :src="require('../../../public/logo.svg')" loading="lazy" width="200"></b-img>
-      </b-navbar-brand>
+      <b-container>
+        <b-navbar-brand href="#">
+          <b-img :src="require('../../../public/logo.svg')" loading="lazy" width="200"></b-img>
+        </b-navbar-brand>
 
-      <FullScreen />
+        <FullScreen />
+      </b-container>
     </b-navbar>
   </div>
 </template>

@@ -4,10 +4,10 @@
       <a class="closebtn" @click="closeNav()">&times;</a>
 
       <div class="overlay-content">
-        <b-link to="#home-section">Início</b-link>
-        <b-link to="#about-section">Sobre</b-link>
-        <b-link to="#techs-section">Tecnologias</b-link>
-        <b-link to="#">Contato</b-link>
+        <b-nav-item href="#home-section" @click="closeNav()">Início</b-nav-item>
+        <b-nav-item href="#about-section" @click="closeNav()">Sobre</b-nav-item>
+        <b-nav-item href="#techs-section" @click="closeNav()">Tecnologias</b-nav-item>
+        <b-nav-item href="#contact-section" @click="closeNav()">Contato</b-nav-item>
       </div>
     </div>
 
@@ -62,6 +62,7 @@ export default {
     margin-top: 30px;
     text-align: center;
     position: relative;
+    list-style-type:none;
   }
 
   a {
@@ -71,6 +72,7 @@ export default {
     font-size: 36px;
     transition: 0.3s;
     text-decoration: none;
+    transition: opacity .5s;
 
     &:hover {
       color: $white-1;

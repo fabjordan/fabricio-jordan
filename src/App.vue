@@ -23,6 +23,7 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(3, 3, 3, 0);
+  scroll-behavior: smooth;
 }
 
 body {
