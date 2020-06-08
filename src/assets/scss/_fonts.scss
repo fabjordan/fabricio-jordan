@@ -3,6 +3,10 @@
 */
 .big-font {
     font-family: $big-font;
+
+    @media screen and (min-width: $display-sm) and (max-width: $display-lg) {
+        margin-top: 5%;
+    }
 }
 
 .big-font-2 {
@@ -13,15 +17,14 @@
     font-weight: 900;
     color: $gray-rgba;
     position: absolute;
-}
 
-@media screen and (min-width: $display-xs) and (max-width: $display-lg) {
-    .big-font-1 {
-        margin-top: 5%;
+    @media screen and (min-width: $display-xs) and (max-width: $display-xm) {
+        margin: 7% 3%;
+        font-size: 45px !important;
     }
 
-    .big-font-2 {
-        margin: 7% 3%;
+    @media screen and (min-width: $display-xm) and (max-width: $display-lg) {
+        margin: 5% 3%;
         font-size: 55px !important;
     }
 }

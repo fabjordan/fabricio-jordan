@@ -72,14 +72,22 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media screen and (min-width: $display-xs) and (max-width: $display-xm) {
+      top: -10%;
+    }
   }
 
   .first {
     margin-top: 10%;
   }
   .max-size {
-    font-size: 5rem;
+    font-size: 5em;
     font-weight: 1000;
+
+    @media screen and (min-width: $display-xs) and (max-width: $display-xm) {
+      font-size: 3em;
+    }
   }
 }
 </style>
