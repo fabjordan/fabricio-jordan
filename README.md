@@ -54,12 +54,12 @@ yarn serve
 ```
 
 Compiles and minifies for production:
-```nodejs
+```bash
 yarn build
 ```
 
 Lints and fixes files:
-```nodejs
+```bash
 yarn lint
 ```
 
@@ -70,7 +70,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Deploy this project to github pages
 
 > Create a new file in root directory of your project and name it ‘vue.config.js’.
-```nodejs
+```js
 module.exports = {
     publicPath: '/about-me/'
 }
@@ -79,22 +79,22 @@ module.exports = {
 > comment out the "/dist" line in your .gitignore
 
 > run the build:
-```nodejs
+```bash
 yarn build
 ```
 
 > install vue-cli-ghpages:
-```nodejs
+```bash
 yarn global add vue-cli-ghpages
 ```
 
 > execute:
-```nodejs
+```bash
 vue-cli-ghpages
 ```
 
 > or simply:
-```nodejs
+```bash
 vcg
 ```
 
