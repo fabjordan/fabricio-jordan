@@ -4,6 +4,7 @@
     <Home></Home>
     <About></About>
     <Techs></Techs>
+    <Experience></Experience>
     <Contact></Contact>
   </div>
 </template>
@@ -15,6 +16,7 @@ import Home from "@/components/Home";
 import About from "@/components/About";
 import Techs from "@/components/Techs";
 import Contact from "@/components/Contact";
+import Experience from "../components/Experience.vue";
 
 export default {
   name: "Index",
@@ -23,8 +25,9 @@ export default {
     Home,
     About,
     Techs,
-    Contact
-  }
+    Contact,
+    Experience
+}
 };
 </script>
 

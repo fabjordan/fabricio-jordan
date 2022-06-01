@@ -85,6 +85,69 @@
             </div>
           </b-col>
         </b-row>
+
+        <b-row class="d-flex">
+          <b-col md="4" sm="6" xs="6" class="mb-5">
+            <div class="bg-1 p-2 rounded card-body">
+              <div class="text-center mt-1 h-img d-flex justify-content-center">
+                <b-img
+                  :src="require('../assets/images/react.svg')"
+                  class="img-fluid"
+                  alt
+                  width="60"
+                ></b-img>
+              </div>
+              <div class="mt-2">
+                <h5 class="text-white text-center">React.js</h5>
+                <p class="text-white mt-2 p-3">
+                  O React é uma biblioteca JavaScript criada e mantida pela Meta
+                  com foco em criar interfaces de usuário.
+                </p>
+              </div>
+            </div>
+          </b-col>
+
+          <b-col md="4" sm="6" xs="6" class="mb-5">
+            <div class="bg-1 p-2 rounded card-body">
+              <div class="text-center mt-1 h-img d-flex justify-content-center">
+                <b-img
+                  :src="require('../assets/images/nextjs.svg')"
+                  class="img-fluid"
+                  alt
+                  width="80"
+                ></b-img>
+              </div>
+              <div class="mt-2">
+                <h5 class="text-white text-center">Next.js</h5>
+                <p class="text-white mt-2 p-3">
+                  Next.js é um framework React que permite 
+                  renderização do lado do servidor e geração de sites estáticos.
+                </p>
+              </div>
+            </div>
+          </b-col>
+
+          <b-col md="4" sm="6" xs="6" class="mb-5">
+            <div class="bg-1 p-2 rounded card-body">
+              <div class="text-center mt-1 h-img d-flex justify-content-center">
+                <b-img
+                  :src="require('../assets/images/spring.svg')"
+                  class="img-fluid"
+                  alt
+                  width="70"
+                ></b-img>
+              </div>
+              <div class="mt-2">
+                <h5 class="text-white text-center">Spring Boot</h5>
+                <p class="text-white mt-2 p-3">
+                  O Spring Boot é um framework que torna fácil a criação de aplicações Java
+                  autossuficientes e robustas.
+                </p>
+              </div>
+            </div>
+          </b-col>
+
+        </b-row>
       </b-container>
     </section>
   </div>

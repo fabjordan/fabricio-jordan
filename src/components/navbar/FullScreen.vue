@@ -7,6 +7,7 @@
         <b-nav-item href="#home-section" @click="closeNav()">Início</b-nav-item>
         <b-nav-item href="#about-section" @click="closeNav()">Sobre</b-nav-item>
         <b-nav-item href="#techs-section" @click="closeNav()">Tecnologias</b-nav-item>
+        <b-nav-item href="#experiences" @click="closeNav()">Timeline</b-nav-item>
         <b-nav-item href="#contact-section" @click="closeNav()">Contato</b-nav-item>
       </div>
     </div>

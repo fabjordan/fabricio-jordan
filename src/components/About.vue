@@ -14,43 +14,36 @@
               Autodidata. Apaixonado por inovação, amante de video-games
               e do bom e velho Rock'n Roll!
             </p>
-
-            <div class="bg-1 rounded">
-              <ul class="about-info mt-2 pl-2 p-3 text-white">
-                <li class="d-flex mb-3">
-                  <span>Nome:</span>
-                  <span>Fabrício Jordan</span>
-                </li>
-                <li class="d-flex mb-3">
-                  <span>E-mail:</span>
-                  <span>fabriciomonte2014@gmail.com</span>
-                </li>
-                <li class="d-flex mb-3">
-                  <span>Phone:</span>
-                  <span>(98) 98462-3100</span>
-                </li>
-                <li class="d-flex mb-3">
-                  <span>Mora em:</span>
-                  <span>São Luís / MA</span>
-                </li>
-              </ul>
-            </div>
+            <p class="text-white">
+              Ingressei na graduação de Ciência da Computação com 16 anos. Passei a maior parte da minha carreira
+              trabalhando com desenvolvimento de software focado na Web. Enquanto desenvolvedor, foquei em aprender boas
+              práticas de desenvolvimento, clean code, arquitetura de microsserviços, gestão de projetos e outros.
+            </p>
+            <p class="text-white">
+              Além de desenvolvedor, atuo com gestão de projetos e liderança de pequenas e médias equipes, com foco
+              sempre na agregação de valor ao cliente e entrega de resultados.
+            </p>
 
             <div class="social-container">
               <ul class="social-icons">
                 <li>
-                  <b-link href="https://www.instagram.com/fabricio__jordan/" target="_blank">
-                    <i class="fa fa-instagram"></i>
+                  <b-link title="Github" href="https://github.com/fabjordan" target="_blank">
+                    <i class="fa fa-github"></i>
                   </b-link>
                 </li>
                 <li>
-                  <b-link href="https://www.linkedin.com/in/fabricio-jordan/" target="_blank">
+                  <b-link title="Linkedin" href="https://www.linkedin.com/in/fabricio-jordan/" target="_blank">
                     <i class="fa fa-linkedin"></i>
                   </b-link>
                 </li>
                 <li>
-                  <b-link href="https://github.com/fabjordan" target="_blank">
-                    <i class="fa fa-github"></i>
+                  <b-link title="Instagram" href="https://www.instagram.com/fabricio__jordan/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </b-link>
+                </li>
+                <li>
+                  <b-link title="Currículo" href="https://drive.google.com/file/d/14zJQxCFNDcHuqD-JRoqOs08AM2jcpD-7/view?usp=sharing" target="_blank">
+                    <i class="fa fa-file-pdf-o"></i>
                   </b-link>
                 </li>
               </ul>
@@ -72,6 +65,8 @@ export default {
 @import "../assets/scss/_variables.scss";
 
 .about-section {
+  padding-bottom: 10%;
+
   @media screen and (min-width: $display-xs) and (max-width: $display-lg) {
     .bio {
       margin-top: 8% !important;
@@ -79,7 +74,7 @@ export default {
   }
 
   .bio {
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   .about-img {
@@ -88,7 +83,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("../assets/images/foto3.jpg");
+    background-image: url("../assets/images/foto.jpeg");
   }
 
   .about-info li span:nth-child(1) {
