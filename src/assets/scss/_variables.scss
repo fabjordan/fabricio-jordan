@@ -1,0 +1,42 @@
+@mixin transformScale($size: 1) {
+    transform: scale($size);
+    -ms-transform: scale($size);
+    -webkit-transform: scale($size);
+}
+
+$bg-dark: #222222;
+$black-rgb: rgb(0, 0, 0);
+$black-rgba: rgba(0, 0, 0, 0.9);
+
+$gray-1: #818181;
+$gray-rgba: rgba(255, 255, 255, 0.1);
+
+$white: #ffffff;
+$white-1: #f1f1f1;
+
+$blue:#007bff;
+$accent: #002a8f;
+$bluefade: #0043e0;
+$gradient: #00b5f5;
+$iconColor: #00b5f5;
+
+$display-xs: 0;
+$display-xm: 445px;
+$display-sm: 576px;
+$display-md: 768px;
+$display-lg: 992px;
+$display-xl: 1200px;
+
+$timing: 265ms;
+$big-font: "Poppins",
+sans-serif;
+
+@import './fonts';
+
+.bg-1 {
+    background-color: $bg-dark;
+}
+
+.bg-none {
+    background-color: transparent !important;
+}
